@@ -1,6 +1,6 @@
 @font-face {
   font-family: "montserrat";
-  src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+  src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf");
 }
 
 * {
@@ -11,15 +11,16 @@
 
 ul {
   margin-left: 20px;
+  width: 300px;
 }
 
 ul li:nth-of-type(3n) {
   color: #311b92;
-  font-family: montserrat;
+  font-family: "montserrat";
 }
 
 ul li:nth-of-type(5n) {
-  color: #fff176;
+  background-color: #fff176;
 }
 
 ul li:nth-of-type(even) {
@@ -44,4 +45,15 @@ ul li:nth-of-type(4n) {
 
 ul li:nth-of-type(13n) {
   background-color: #ff8a80;
+
+}
+
+ul li:nth-of-type(5),
+ul li:nth-of-type(10),
+ul li:nth-of-type(15),
+ul li:nth-of-type(20),
+ul li:nth-of-type(25) {
+    ul
+
+
 }
